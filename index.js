@@ -12,4 +12,10 @@ l['style']['color'] = 'green';
 
 k.innerHTML = 'Hey, bro!';
 document.body.append(l);
-console.log(k);
+// console.log(k);
+console.log(document.URL);
+const greet = document.getElementById('greet');
+console.log(greet);
+
+const h1s = document.getElementsByTagName('h1');
+console.log(h1s);
