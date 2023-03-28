@@ -19,3 +19,6 @@ console.log(greet);
 
 const h1s = document.getElementsByTagName('h1');
 console.log(h1s);
+
+const firstH1Match = document.querySelector('h1');
+console.log(`first h1: ${firstH1Match.innerHTML}`);
