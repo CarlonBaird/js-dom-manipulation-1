@@ -10,7 +10,7 @@ const l = document.createElement('h1');
 l['innerHTML'] = 'Hello there';
 l['style']['color'] = 'green';
 
-k.innerHTML = 'Hey, bro!';
+k.innerHTML = 'Hey!';
 document.body.append(l);
 // console.log(k);
 console.log(document.URL);
